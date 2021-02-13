@@ -1,0 +1,112 @@
+com/pibd/project1/domain/entity/CommentEntity.java
+ com.pibd.project1.domain.entity.CommentEntity
+ com.pibd.project1.domain.entity.CommentEntity$CommentEntityBuilder
+com/pibd/project1/domain/model/LikesDTO.java
+ com.pibd.project1.domain.model.LikesDTO
+ com.pibd.project1.domain.model.LikesDTO$LikesDTOBuilder
+com/pibd/project1/domain/entity/ArtistEntity.java
+ com.pibd.project1.domain.entity.ArtistEntity
+ com.pibd.project1.domain.entity.ArtistEntity$ArtistEntityBuilder
+com/pibd/project1/config/SecurityConfiguration.java
+ com.pibd.project1.config.SecurityConfiguration
+com/pibd/project1/domain/model/CommentDTO.java
+ com.pibd.project1.domain.model.CommentDTO
+ com.pibd.project1.domain.model.CommentDTO$CommentDTOBuilder
+com/pibd/project1/mapper/RegisterEntityToRegisterDTOMapper.java
+ com.pibd.project1.mapper.RegisterEntityToRegisterDTOMapper
+com/pibd/project1/domain/model/ArtistDTO.java
+ com.pibd.project1.domain.model.ArtistDTO
+ com.pibd.project1.domain.model.ArtistDTO$ArtistDTOBuilder
+com/pibd/project1/mapper/ArtistEntityToArtistDTOMapper.java
+ com.pibd.project1.mapper.ArtistEntityToArtistDTOMapper
+com/pibd/project1/domain/entity/SaleEntity.java
+ com.pibd.project1.domain.entity.SaleEntity
+ com.pibd.project1.domain.entity.SaleEntity$SaleEntityBuilder
+com/pibd/project1/mapper/PaintingDTOToPaintingEntityMapperWithoutArtist.java
+ com.pibd.project1.mapper.PaintingDTOToPaintingEntityMapperWithoutArtist
+com/pibd/project1/config/WebMvcConfig.java
+ com.pibd.project1.config.WebMvcConfig
+com/pibd/project1/mapper/CommentEntityToCommentDTOWithoutPainting.java
+ com.pibd.project1.mapper.CommentEntityToCommentDTOWithoutPainting
+com/pibd/project1/repository/RegisterRepository.java
+ com.pibd.project1.repository.RegisterRepository
+com/pibd/project1/controller/ArtistController.java
+ com.pibd.project1.controller.ArtistController
+com/pibd/project1/repository/LikesRepository.java
+ com.pibd.project1.repository.LikesRepository
+com/pibd/project1/controller/PaintingsController.java
+ com.pibd.project1.controller.PaintingsController
+com/pibd/project1/domain/model/UserDTO.java
+ com.pibd.project1.domain.model.UserDTO
+ com.pibd.project1.domain.model.UserDTO$UserDTOBuilder
+com/pibd/project1/domain/entity/RoleEntity.java
+ com.pibd.project1.domain.entity.RoleEntity
+ com.pibd.project1.domain.entity.RoleEntity$RoleEntityBuilder
+com/pibd/project1/mapper/PaintingEntityToPainterDTOMappetWithArtist.java
+ com.pibd.project1.mapper.PaintingEntityToPainterDTOMappetWithArtist
+com/pibd/project1/service/PaintingService.java
+ com.pibd.project1.service.PaintingService
+com/pibd/project1/mapper/LikesEntityToLikesDTOWithoutArtist.java
+ com.pibd.project1.mapper.LikesEntityToLikesDTOWithoutArtist
+com/pibd/project1/service/ArtistService.java
+ com.pibd.project1.service.ArtistService
+com/pibd/project1/domain/entity/LikesEntity.java
+ com.pibd.project1.domain.entity.LikesEntity
+ com.pibd.project1.domain.entity.LikesEntity$LikesEntityBuilder
+com/pibd/project1/domain/entity/PaintingEntity.java
+ com.pibd.project1.domain.entity.PaintingEntity
+ com.pibd.project1.domain.entity.PaintingEntity$PaintingEntityBuilder
+com/pibd/project1/domain/model/PaintingDTO.java
+ com.pibd.project1.domain.model.PaintingDTO
+ com.pibd.project1.domain.model.PaintingDTO$PaintingDTOBuilder
+com/pibd/project1/Project1Application.java
+ com.pibd.project1.Project1Application
+com/pibd/project1/controller/CommentController.java
+ com.pibd.project1.controller.CommentController
+com/pibd/project1/mapper/CommentDTOToCommentEntity.java
+ com.pibd.project1.mapper.CommentDTOToCommentEntity
+com/pibd/project1/mapper/RegisterDTOToRegisterEntityMapper.java
+ com.pibd.project1.mapper.RegisterDTOToRegisterEntityMapper
+com/pibd/project1/domain/model/RegisterDTO.java
+ com.pibd.project1.domain.model.RegisterDTO
+ com.pibd.project1.domain.model.RegisterDTO$RegisterDTOBuilder
+com/pibd/project1/domain/model/SaleDTO.java
+ com.pibd.project1.domain.model.SaleDTO
+ com.pibd.project1.domain.model.SaleDTO$SaleDTOBuilder
+com/pibd/project1/service/CommentService.java
+ com.pibd.project1.service.CommentService
+com/pibd/project1/repository/CommentRepository.java
+ com.pibd.project1.repository.CommentRepository
+com/pibd/project1/repository/SaleRepository.java
+ com.pibd.project1.repository.SaleRepository
+com/pibd/project1/repository/RoleRepository.java
+ com.pibd.project1.repository.RoleRepository
+com/pibd/project1/mapper/ArtistDTOToArtistEntityMapper.java
+ com.pibd.project1.mapper.ArtistDTOToArtistEntityMapper
+com/pibd/project1/domain/entity/RegisterEntity.java
+ com.pibd.project1.domain.entity.RegisterEntity
+ com.pibd.project1.domain.entity.RegisterEntity$RegisterEntityBuilder
+com/pibd/project1/repository/PaintingRepository.java
+ com.pibd.project1.repository.PaintingRepository
+com/pibd/project1/repository/ArtistRepository.java
+ com.pibd.project1.repository.ArtistRepository
+com/pibd/project1/mapper/PaintingEntityToPainterDTOMapper.java
+ com.pibd.project1.mapper.PaintingEntityToPainterDTOMapper
+com/pibd/project1/mapper/ArtistEntityToArtistDTOWithoutPaintingMapper.java
+ com.pibd.project1.mapper.ArtistEntityToArtistDTOWithoutPaintingMapper
+com/pibd/project1/service/LikeService.java
+ com.pibd.project1.service.LikeService
+com/pibd/project1/controller/RegisterController.java
+ com.pibd.project1.controller.RegisterController
+com/pibd/project1/controller/BasicAuthController.java
+ com.pibd.project1.controller.BasicAuthController
+com/pibd/project1/service/RegisterService.java
+ com.pibd.project1.service.RegisterService
+com/pibd/project1/service/EmailService.java
+ com.pibd.project1.service.EmailService
+com/pibd/project1/auth/AuthenticationBean.java
+ com.pibd.project1.auth.AuthenticationBean
+com/pibd/project1/config/EmailConfiguration.java
+ com.pibd.project1.config.EmailConfiguration
+com/pibd/project1/controller/LikeController.java
+ com.pibd.project1.controller.LikeController
